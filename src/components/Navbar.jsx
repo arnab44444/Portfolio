@@ -12,10 +12,15 @@ const Navbar = () => {
     <div className="fixed top-0 left-0 w-screen z-50 bg-gradient-to-r from-cyan-600 to-cyan-700 shadow">
       <div className="flex justify-between items-center px-4 md:px-8 py-4">
         {/* Logo */}
-        <div className="flex items-center gap-2">
-          <p className="text-white text-xl font-bold">Arnab</p>
+        <div className="flex items-center justify-end gap-2">
+          <img
+            src="https://i.ibb.co/Y4FNwv4D/file-000000004f5461f8b99455317b3e553f.png" // ⬅️ Replace with your image path
+            alt="Logo"
+            className="w-8 h-8 rounded-full object-cover"
+          />
+          {/* <p className="text-white text-xl font-bold">Arnab</p> */}
         </div>
-        
+
         {/* Hamburger button for small screens */}
         <div className="md:hidden">
           <button
@@ -85,7 +90,7 @@ const Navbar = () => {
         {/* Resume Button */}
         <div className="hidden md:block">
           <a
-            href="/your-resume.pdf"
+            // href="/your-resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-sm bg-white text-cyan-700 font-semibold hover:bg-gray-100"
@@ -155,7 +160,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="/your-resume.pdf"
+                // href="/your-resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white text-cyan-700 px-4 py-2 rounded-md text-center"

@@ -47,7 +47,7 @@ const Hero = () => {
               <FaGithub />
             </a>
             <a
-              href="https://linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=arnab-biswas-6540582aa"
+              href="https://linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=arnab-biswas-6540582aahttps://www.linkedin.com/in/arnab-biswas-6540582aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               target="_blank"
               rel="noreferrer"
               className="hover:text-cyan-600 transition-transform transform hover:scale-125"
@@ -67,10 +67,10 @@ const Hero = () => {
           {/* Resume Button */}
           <div className="mt-6">
             <button
-              className="btn btn-primary px-6 rounded-full animate-bounce hover:scale-105 transition"
-              onClick={() =>
-                window.open("https://example.com/resume.pdf", "_blank")
-              }
+              className="btn bg-cyan-500 px-6 rounded-full animate-bounce hover:scale-105 transition"
+              // onClick={() =>
+              //   window.open("https://example.com/resume.pdf", "_blank")
+              // }
             >
               View Resume
             </button>

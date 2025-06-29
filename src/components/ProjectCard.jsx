@@ -50,7 +50,7 @@ const ProjectCard = ({
               ))}
             </ul>
 
-            <div className="flex flex-wrap grid grid-cols-3 gap-2 mt-3">
+            <div className=" grid grid-cols-2 md:grid md:grid-cols-3 gap-2 mt-3">
               {libraries.map((lib, i) => (
                 <div key={i} className="badge badge-outline badge-primary ">
                   {lib}
