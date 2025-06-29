@@ -1,6 +1,7 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Link } from "react-router";
 
 const ProjectCard = ({
   title,
@@ -60,17 +61,17 @@ const ProjectCard = ({
 
           <div className="flex flex-wrap gap-3 mt-4">
             <a href={liveLink} target="_blank" rel="noreferrer">
-              <button className="btn btn-success btn-sm">Live</button>
+              <button className="btn btn-info btn-sm">Live</button>
             </a>
             <a href={clientLink} target="_blank" rel="noreferrer">
               <button className="btn btn-info btn-sm">GH Client</button>
             </a>
             <a href={serverLink} target="_blank" rel="noreferrer">
-              <button className="btn btn-warning btn-sm">GH Server</button>
+              <button className="btn btn-info btn-sm">GH Server</button>
             </a>
-            <a href={detailsLink} target="_blank" rel="noreferrer">
-              <button className="btn btn-neutral btn-sm">Details</button>
-            </a>
+            <Link to={detailsLink} className="btn btn-info btn-sm">
+              Details
+            </Link>
           </div>
         </div>
       </div>

@@ -1,27 +1,34 @@
 const AboutMe = () => {
   return (
-    <div className="bg-gray-200 py-16 px-6 md:px-20">
-      <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-4xl font-bold text-cyan-500 mb-6">About Me</h2>
+    <section className="bg-gradient-to-br from-cyan-50 to-blue-100 py-16 px-4 md:px-10">
+      <div className="max-w-4xl mx-auto bg-white/60 backdrop-blur-md rounded-2xl p-10 shadow-md border border-blue-200">
+        <h2 className="text-4xl font-extrabold text-cyan-500 text-center mb-6">
+          About Me
+        </h2>
 
-        {/* Casual intro */}
-        <p className="text-lg text-base-content leading-relaxed mb-6">
-          Hey there! 👋 I'm Arnab — a curious human who loves chai, late-night coding, 
-          and occasionally talking to my bugs like they're teammates. 😅
+        {/* Friendly Introduction */}
+        <p className="text-lg text-gray-800 leading-relaxed mb-6 text-center">
+          Hey there! 👋 I’m{" "}
+          <span className="font-semibold text-cyan-600">Arnab</span> — a curious
+          coder, chai lover, and someone who occasionally has deep conversations
+          with bugs. 
         </p>
 
-        {/* Professional intro */}
-        <p className="text-lg text-base-content leading-relaxed">
-          I'm a passionate <span className="font-semibold text-secondary">MERN Stack Developer </span> 
-           with strong skills in building full-stack web applications using 
-          <span className="font-semibold"> MongoDB, Express.js, React, and Node.js</span>. I enjoy 
-          solving real-world problems through clean, efficient code and continuously 
-          learning new technologies. My goal is to contribute to projects that make an 
-          impact and grow both as a developer and a team player.
+        {/* Professional Introduction */}
+        <p className="text-lg text-gray-800 leading-relaxed text-center">
+          I'm a passionate{" "}
+          <span className="font-semibold text-cyan-600">
+            MERN Stack Developer
+          </span>{" "}
+          who loves building full-stack web applications using{" "}
+          <span className="font-semibold">MongoDB, Express.js, React,</span> and{" "}
+          <span className="font-semibold">Node.js</span>. I enjoy solving
+          real-world problems with clean and efficient code. I’m constantly
+          learning and improving, aiming to contribute to meaningful projects
+          and grow as both a developer and a team player.
         </p>
       </div>
-    </div>
+    </section>
   );
 };
-
 export default AboutMe;
